@@ -1,0 +1,82 @@
+/*put a container in center and give gradient color to container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: rgb(54,78,208);
+    background: radial-gradient(circle, rgba(54,78,208,1) 0%, rgba(213,220,242,1) 100%);
+    opacity:0.7;
+    height:50vh;
+    width: 40vw;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    margin-bottom: 200px; 
+    min-width: 200px;
+    min-height: 500px;     
+}  
+
+/*put items in center*/  
+.signIn-card{
+    display:flex;
+    flex-direction: column;
+    text-align: center;   
+    justify-content: space-between;
+    align-content: center;
+    color: aliceblue;
+    align-content:space-around;  
+}
+
+/*give shadow and set font style*/ 
+h2 {
+    font-style: oblique;
+    text-shadow: 3px 3px #383737;   
+}
+
+/*set image size*/
+image{
+    width: 40px;
+    height: 40px;   
+}
+
+/*give shadow and style for input boxes*/ 
+input{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);  
+    width: 30vw; 
+    min-width: 180px;
+    border-style: none; 
+    opacity: 0.4;
+    padding: 5px 5px;
+    border-radius: 10px;
+}
+
+/*make button color to purple*/ 
+button{
+    background: rgb(88, 85, 240);
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*put title,PW,username and submit box to center and give spaces*/ 
+.whale, .submit-button,  .password,  .username {
+    display: flex;  
+    justify-content: center;   
+    margin: 10px;    
+}
+
+/*make submit button text color to white*/ 
+#submit {
+    color:white;
+    padding: 5px;    
+}
+
+/*give gradient color to body*/ 
+body{
+    background-image: url("ocean1.jpg");
+    background-size: 1800px;
+    background-repeat: repeat-x;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;    
+}
